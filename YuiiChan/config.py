@@ -14,18 +14,18 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "awoo"
-    API_HASH = "awoo"
-    API_KEY = "BOT_TOKEN"
-    OWNER_ID = "792109647"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "Sawada"
-    SUPPORT_CHAT = "@OnePunchSupport"
+    API_ID = "2526912"
+    API_HASH = "e13cdbc90345105474a0889a66b94441"
+    API_KEY = "1361559412:AAEmf41s2TslTvldbAQRlxubHeIQ2g4UGgs"
+    OWNER_ID = "714651075"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "jackcooleewro"
+    SUPPORT_CHAT = "@WASTELANDX"
 
     # RECOMMENDED
 
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
-    MESSAGE_DUMP = -1001253661229  # needed to make sure 'save from' messages persist
-    GBAN_LOGS = -1001190806654
+    SQLALCHEMY_DATABASE_URI = "postgres://pecvwjvlsyccwf:0a67a2137a247bea07e4257dfd2e126dc5da9bd47cac642d22fde7d2818f1c92@ec2-52-3-4-232.compute-1.amazonaws.com:5432/daaatki8mlvs1e"  # needed for any database modules
+    MESSAGE_DUMP = -403886726  # needed to make sure 'save from' messages persist
+    GBAN_LOGS = -403886726
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
@@ -51,12 +51,12 @@ class Config(object):
     )
     BAN_STICKER = ""  # banhammer marie sticker
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
-    CASH_API_KEY = "awoo"
-    TIME_API_KEY = "awoo"
+    CASH_API_KEY = "X5V7UUSQP4SHDCG3"
+    TIME_API_KEY = "FR4XK5G5ZM40x"
     WALL_API = (
         "awoo"  # For wallpapers, get one from https://wall.alphacoders.com/api.php
     )
-    AI_API_KEY = "awoo"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
+    AI_API_KEY = "3f11c2efdd6123f2187a313a5baf89834682ef80b73063a151f73b64ef4ee741d4c89f0df5aa88ad6d355c56d6c2b8991234fd05692eadfc74a539c5eb303247"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
 
 
